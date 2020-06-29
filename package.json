@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "babel-preset-react-native-stage-0": "^1.0.1",
+    "@babel/plugin-external-helpers": "^7.10.1",
     "jest": "^23.1.0",
     "jest-react-native": "^18.0.0",
-    "react-test-renderer": "16.3.1"
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.6.3"
   },
   "scripts": {
     "start": "react-native start",
@@ -18,9 +19,11 @@
     "preset": "react-native"
   },
   "dependencies": {
-    "react": "16.3.1",
-    "react-native": "~0.55.2",
+    "react": "16.6.3",
+    "react-native": "0.57.8",
     "react-native-fs": "^2.9.12",
+    "react-native-paper": "^3.10.1",
+    "react-native-vector-icons": "^6.6.0",
     "react-native-video": "^2.1.1",
     "react-native-video-controls": "^2.2.1"
   }
